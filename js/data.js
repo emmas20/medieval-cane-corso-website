@@ -260,12 +260,12 @@ const SITE_DATA = {
       photoAlt: "Americana's Countess Elizabeth, foundation dam of the Medieval Cane Corso program",
       items: [
         {
-          category: "Documentation",
-          title: "Health Testing & Registration Records",
-          issuer: "Medieval Cane Corso",
+          category: "Registration",
+          title: "ICCF Registration",
+          issuer: "International Cane Corso Federation (ICCF)",
           dateOfReport: null,
           result: null,
-          explanation: "Americana's Countess Elizabeth is a current foundation breeding female. Her verified health-testing and registration documents will be displayed here as soon as the corresponding records are provided for publication."
+          explanation: "Americana's Countess Elizabeth is registered with the International Cane Corso Federation (ICCF), documenting her pedigree within the breed registry."
         }
       ]
     },
@@ -282,6 +282,14 @@ const SITE_DATA = {
           dateOfReport: null,
           result: null,
           explanation: "Medieval's Luna is registered with the International Cane Corso Federation (ICCF), documenting her pedigree within the breed registry."
+        },
+        {
+          category: "Health Testing",
+          title: "Health Testing Documentation",
+          issuer: "Medieval Cane Corso",
+          dateOfReport: null,
+          result: null,
+          explanation: "Medieval's Luna's health-testing documentation will be displayed here once her testing has been completed and the corresponding records are available for publication."
         }
       ]
     }
