@@ -33,11 +33,34 @@
         toggle.setAttribute("aria-expanded", String(isOpen));
         document.body.style.overflow = isOpen ? "hidden" : "";
       });
-      $$(".nav-links a").forEach((a) => a.addEventListener("click", () => {
-        links.classList.remove("is-open");
-        toggle.setAttribute("aria-expanded", "false");
-        document.body.style.overflow = "";
-      }));
+      function closeMenu() {
+  links.classList.remove("is-open");
+  toggle.setAttribute("aria-expanded", "false");
+  toggle.setAttribute("aria-label", "Open menu");
+  document.body.style.overflow = "";
+}
+
+toggle.addEventListener("click", () => {
+  toggle.setAttribute(
+    "aria-label",
+    links.classList.contains("is-open") ? "Close menu" : "Open menu"
+  );
+});
+
+$$(".nav-links a").forEach((a) =>
+  a.addEventListener("click", closeMenu)
+);
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && links.classList.contains("is-open")) {
+    closeMenu();
+    toggle.focus();
+  }
+});
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 980) closeMenu();
+});
     }
 
     // Mark current page link
