@@ -560,7 +560,7 @@ window.addEventListener("resize", () => {
    *
    * See README.md for full setup instructions.
    */
-  const FORM_ENDPOINT = ""; // e.g. "https://formspree.io/f/xxxxxxx" — left blank until the breeder chooses a backend
+  const FORM_ENDPOINT = "https://script.google.com/macros/s/AKfycbw6ad7SkrUe8vGvyqChb6dPBMEfs8F-FFLbEZ2R6jfR11t7f_a7QY1a1d8q0nhvZpx9Cg/exec"; // e.g. "https://formspree.io/f/xxxxxxx" — left blank until the breeder chooses a backend
 
   function initInquiryForm() {
     const form = $("#inquiry-form");
