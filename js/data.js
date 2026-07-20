@@ -22,7 +22,7 @@ const SITE_DATA = {
     city: "Surrey",
     region: "British Columbia",
     country: "Canada",
-    serviceArea: "Based in Surrey, BC — welcoming suitable families across Canada, the United States, and internationally",
+    serviceArea: "Based in Surrey, BC — welcoming suitable families across Canada and internationally",
     phone: "604-679-2362",
     phoneHref: "tel:+16046792362",
     email: "MedievalCaneCorsos@gmail.com",
@@ -115,6 +115,7 @@ const SITE_DATA = {
       name: "Sir Shadow",
       role: "Foundation Sire",
       sex: "Male",
+      ageDisplay: "4 years",
       dob: "2022-06-10",
       dobDisplay: "June 10, 2022",
       registration: "ICCF2404786 (ICCF Registered)",
@@ -139,6 +140,7 @@ const SITE_DATA = {
       name: "Americana's Countess Elizabeth",
       role: "Foundation Dam",
       sex: "Female",
+      ageDisplay: "3 years",
       litters: "Dam of three successful litters",
       bio: [
         "Americana's Countess Elizabeth is the foundation female of the Medieval Cane Corsos breeding program, selected for her exceptional maternal instincts, balanced structure, and stable, breed-typical temperament. As the dam of three successful litters, she has consistently produced offspring displaying strong structure, sound temperaments, and excellent overall quality.",
@@ -158,6 +160,7 @@ const SITE_DATA = {
       name: "Medieval's Luna",
       role: "Future / Developing Female",
       sex: "Female",
+      ageDisplay: "10 months",
       bio: [
         "Medieval's Luna represents the direction and vision we are continuing to build toward within our program — producing athletic, functional Cane Corsos that preserve the traditional qualities of the breed.",
         "One of the qualities that immediately drew us to Luna is her traditional type and structure. She possesses a longer muzzle that reflects the classic Cane Corso found throughout Italy, along with a balanced skull-to-muzzle ratio, long legs, tight feet, and an athletic frame built for movement and function. Her correct proportions and natural athleticism represent the type of Cane Corso we strive to produce: powerful, balanced, and capable.",
@@ -180,7 +183,7 @@ const SITE_DATA = {
       status: "Applications Open",
       startingPrice: "Females starting at $4,000 CAD · Males starting at $5,000 CAD",
       description: "This pairing was selected based on the consistent temperament and structure observed in previous litters, which aligned closely with our program goals. A $1,000 non-refundable deposit reserves a puppy and is applied toward the total purchase price.",
-      image: "images/dogs/sir-shadow-01-standing-hedge.jpg"
+      image: "images/puppies/fall-litter-2026-poster-v22.jpeg"
     }
   ],
 
@@ -289,7 +292,7 @@ const SITE_DATA = {
           issuer: "Medieval Cane Corso",
           dateOfReport: null,
           result: null,
-          explanation: "Medieval's Luna's health-testing documentation will be displayed here once her testing has been completed and the corresponding records are available for publication."
+          explanation: "Medieval's Luna's health-testing documentation will be added once age-appropriate testing has been completed and the records are available for publication."
         }
       ]
     }

@@ -325,7 +325,7 @@ window.addEventListener("resize", () => {
           <h3 style="margin-top:0.6rem;">${esc(dog.name)}</h3>
           <div class="card-meta">
             <span>${esc(dog.sex)}</span>
-            ${dog.dobDisplay ? `<span>Born ${esc(dog.dobDisplay)}</span>` : ""}
+            ${dog.ageDisplay ? `<span>${esc(dog.ageDisplay)}</span>` : ""}
           </div>
         </div>
       </a>
@@ -346,7 +346,7 @@ window.addEventListener("resize", () => {
           <h2 style="margin-top:0.7rem;">${esc(dog.name)}</h2>
           <div class="card-meta" style="margin-bottom:1rem;">
             <span>${esc(dog.sex)}</span>
-            ${dog.dobDisplay ? `<span>Born ${esc(dog.dobDisplay)}</span>` : ""}
+            ${dog.ageDisplay ? `<span>${esc(dog.ageDisplay)}</span>` : ""}
             ${dog.registration ? `<span>${esc(dog.registration)}</span>` : ""}
             ${dog.litters ? `<span>${esc(dog.litters)}</span>` : ""}
           </div>
