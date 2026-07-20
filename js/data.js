@@ -183,7 +183,7 @@ const SITE_DATA = {
       status: "Applications Open",
       startingPrice: "Females starting at $4,000 CAD · Males starting at $5,000 CAD",
       description: "This pairing was selected based on the consistent temperament and structure observed in previous litters, which aligned closely with our program goals. A $1,000 non-refundable deposit reserves a puppy and is applied toward the total purchase price.",
-      image: "images/puppies/fall-litter-2026-poster-v22.jpeg"
+      image: "images/puppies/fall-litter-2026-final-poster.jpeg?v=20260719b"
     }
   ],
 

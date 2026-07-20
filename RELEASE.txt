@@ -1,2 +1,2 @@
-FINAL CORRECTED RELEASE — 2026-07-19
-Includes Our Cane Corsos, Straw, fixed ages, Sir Shadow hero, Fall 2026 poster, responsive image framing, and cache-busting asset URLs.
+FINAL IMAGE-FIT RELEASE — 2026-07-20
+Includes the full Sir Shadow hero portrait with responsive desktop/mobile framing, the Fall 2026 poster displayed without cropping, and all prior website corrections.
